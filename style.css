@@ -1,1 +1,156 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Navbar */
+.section-navbar {
+  background-color: #333;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.add-to-cart-button {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* Hero Section */
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.section-hero img {
+  max-width: 100%;
+}
+
+.hero-btn .btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-btn .btn:hover {
+  background-color: #555;
+}
+
+/* Extra Product Section */
+.section-extra-product {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.div-extra {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-text {
+  max-width: 60%;
+}
+
+.extra-text h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.extra-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Policy Section */
+.section-policy {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.div-policy {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.div-policy-text {
+  font-size: 1rem;
+}
+
+/* Footer */
+.section-footer {
+  background-color: #333;
+  color: white;
+  padding: 50px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content_1 img {
+  width: 150px;
+}
+
+.f-mail input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.f-mail i {
+  font-size: 1.5rem;
+  color: #333;
 
